@@ -1,0 +1,111 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Jan 06 23:49:22 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+PIN uut2/Maddsub_GND_30_o_x[2][2][8]_MuLt_42_OUT_pins<92> = BEL
+        "uut2/Maddsub_GND_30_o_x[2][2][8]_MuLt_42_OUT" PINNAME CLK;
+PIN uut2/Maddsub_GND_30_o_x[2][1][8]_MuLt_39_OUT_pins<92> = BEL
+        "uut2/Maddsub_GND_30_o_x[2][1][8]_MuLt_39_OUT" PINNAME CLK;
+PIN uut2/Maddsub_GND_30_o_x[2][0][8]_MuLt_36_OUT_pins<92> = BEL
+        "uut2/Maddsub_GND_30_o_x[2][0][8]_MuLt_36_OUT" PINNAME CLK;
+PIN uut2/Maddsub_GND_30_o_x[1][2][8]_MuLt_33_OUT_pins<92> = BEL
+        "uut2/Maddsub_GND_30_o_x[1][2][8]_MuLt_33_OUT" PINNAME CLK;
+PIN uut2/Maddsub_GND_30_o_x[1][1][8]_MuLt_30_OUT_pins<92> = BEL
+        "uut2/Maddsub_GND_30_o_x[1][1][8]_MuLt_30_OUT" PINNAME CLK;
+PIN uut2/Maddsub_GND_30_o_x[1][0][8]_MuLt_27_OUT_pins<92> = BEL
+        "uut2/Maddsub_GND_30_o_x[1][0][8]_MuLt_27_OUT" PINNAME CLK;
+PIN uut2/Maddsub_PWR_30_o_x[0][2][8]_MuLt_24_OUT_pins<92> = BEL
+        "uut2/Maddsub_PWR_30_o_x[0][2][8]_MuLt_24_OUT" PINNAME CLK;
+PIN uut2/Maddsub_PWR_30_o_x[0][0][8]_MuLt_19_OUT_pins<92> = BEL
+        "uut2/Maddsub_PWR_30_o_x[0][0][8]_MuLt_19_OUT" PINNAME CLK;
+PIN uut2/Mmult_PWR_30_o_x[0][1][8]_MuLt_21_OUT_pins<92> = BEL
+        "uut2/Mmult_PWR_30_o_x[0][1][8]_MuLt_21_OUT" PINNAME CLK;
+PIN uut3/Mram_mem32_pins<14> = BEL "uut3/Mram_mem32" PINNAME CLKA;
+PIN uut3/Mram_mem31_pins<14> = BEL "uut3/Mram_mem31" PINNAME CLKA;
+PIN uut3/Mram_mem30_pins<14> = BEL "uut3/Mram_mem30" PINNAME CLKA;
+PIN uut3/Mram_mem28_pins<14> = BEL "uut3/Mram_mem28" PINNAME CLKA;
+PIN uut3/Mram_mem27_pins<14> = BEL "uut3/Mram_mem27" PINNAME CLKA;
+PIN uut3/Mram_mem29_pins<14> = BEL "uut3/Mram_mem29" PINNAME CLKA;
+PIN uut3/Mram_mem25_pins<14> = BEL "uut3/Mram_mem25" PINNAME CLKA;
+PIN uut3/Mram_mem24_pins<14> = BEL "uut3/Mram_mem24" PINNAME CLKA;
+PIN uut3/Mram_mem26_pins<14> = BEL "uut3/Mram_mem26" PINNAME CLKA;
+PIN uut3/Mram_mem22_pins<14> = BEL "uut3/Mram_mem22" PINNAME CLKA;
+PIN uut3/Mram_mem21_pins<14> = BEL "uut3/Mram_mem21" PINNAME CLKA;
+PIN uut3/Mram_mem23_pins<14> = BEL "uut3/Mram_mem23" PINNAME CLKA;
+PIN uut3/Mram_mem20_pins<14> = BEL "uut3/Mram_mem20" PINNAME CLKA;
+PIN uut3/Mram_mem19_pins<14> = BEL "uut3/Mram_mem19" PINNAME CLKA;
+PIN uut3/Mram_mem17_pins<14> = BEL "uut3/Mram_mem17" PINNAME CLKA;
+PIN uut3/Mram_mem16_pins<14> = BEL "uut3/Mram_mem16" PINNAME CLKA;
+PIN uut3/Mram_mem18_pins<14> = BEL "uut3/Mram_mem18" PINNAME CLKA;
+PIN uut3/Mram_mem15_pins<14> = BEL "uut3/Mram_mem15" PINNAME CLKA;
+PIN uut3/Mram_mem14_pins<14> = BEL "uut3/Mram_mem14" PINNAME CLKA;
+PIN uut3/Mram_mem12_pins<14> = BEL "uut3/Mram_mem12" PINNAME CLKA;
+PIN uut3/Mram_mem11_pins<14> = BEL "uut3/Mram_mem11" PINNAME CLKA;
+PIN uut3/Mram_mem13_pins<14> = BEL "uut3/Mram_mem13" PINNAME CLKA;
+PIN uut3/Mram_mem10_pins<14> = BEL "uut3/Mram_mem10" PINNAME CLKA;
+PIN uut3/Mram_mem9_pins<14> = BEL "uut3/Mram_mem9" PINNAME CLKA;
+PIN uut3/Mram_mem7_pins<14> = BEL "uut3/Mram_mem7" PINNAME CLKA;
+PIN uut3/Mram_mem6_pins<14> = BEL "uut3/Mram_mem6" PINNAME CLKA;
+PIN uut3/Mram_mem8_pins<14> = BEL "uut3/Mram_mem8" PINNAME CLKA;
+PIN uut3/Mram_mem4_pins<14> = BEL "uut3/Mram_mem4" PINNAME CLKA;
+PIN uut3/Mram_mem3_pins<14> = BEL "uut3/Mram_mem3" PINNAME CLKA;
+PIN uut3/Mram_mem5_pins<14> = BEL "uut3/Mram_mem5" PINNAME CLKA;
+PIN uut3/Mram_mem1_pins<14> = BEL "uut3/Mram_mem1" PINNAME CLKA;
+PIN uut3/Mram_mem2_pins<14> = BEL "uut3/Mram_mem2" PINNAME CLKA;
+TIMEGRP clk = BEL "uut1/pstate_0" BEL "uut1/pstate_1" BEL "uut1/pstate_2" PIN
+        "uut2/Maddsub_GND_30_o_x[2][2][8]_MuLt_42_OUT_pins<92>" PIN
+        "uut2/Maddsub_GND_30_o_x[2][1][8]_MuLt_39_OUT_pins<92>" PIN
+        "uut2/Maddsub_GND_30_o_x[2][0][8]_MuLt_36_OUT_pins<92>" PIN
+        "uut2/Maddsub_GND_30_o_x[1][2][8]_MuLt_33_OUT_pins<92>" PIN
+        "uut2/Maddsub_GND_30_o_x[1][1][8]_MuLt_30_OUT_pins<92>" PIN
+        "uut2/Maddsub_GND_30_o_x[1][0][8]_MuLt_27_OUT_pins<92>" PIN
+        "uut2/Maddsub_PWR_30_o_x[0][2][8]_MuLt_24_OUT_pins<92>" PIN
+        "uut2/Maddsub_PWR_30_o_x[0][0][8]_MuLt_19_OUT_pins<92>" PIN
+        "uut2/Mmult_PWR_30_o_x[0][1][8]_MuLt_21_OUT_pins<92>" BEL
+        "uut2/x<2>_2_79" BEL "uut2/x<2>_2_78" BEL "uut2/x<2>_2_77" BEL
+        "uut2/x<2>_2_76" BEL "uut2/x<2>_2_75" BEL "uut2/x<2>_2_74" BEL
+        "uut2/x<2>_2_73" BEL "uut2/x<2>_2_72" BEL "uut2/x<2>_2_70" BEL
+        "uut2/x<2>_2_69" BEL "uut2/x<2>_2_68" BEL "uut2/x<2>_2_67" BEL
+        "uut2/x<2>_2_66" BEL "uut2/x<2>_2_65" BEL "uut2/x<2>_2_64" BEL
+        "uut2/x<2>_2_63" BEL "uut2/x<2>_2_61" BEL "uut2/x<2>_2_60" BEL
+        "uut2/x<2>_2_59" BEL "uut2/x<2>_2_58" BEL "uut2/x<2>_2_57" BEL
+        "uut2/x<2>_2_56" BEL "uut2/x<2>_2_55" BEL "uut2/x<2>_2_54" BEL
+        "uut2/x<2>_2_52" BEL "uut2/x<2>_2_51" BEL "uut2/x<2>_2_50" BEL
+        "uut2/x<2>_2_49" BEL "uut2/x<2>_2_48" BEL "uut2/x<2>_2_47" BEL
+        "uut2/x<2>_2_46" BEL "uut2/x<2>_2_45" BEL "uut2/x<2>_2_43" BEL
+        "uut2/x<2>_2_42" BEL "uut2/x<2>_2_41" BEL "uut2/x<2>_2_40" BEL
+        "uut2/x<2>_2_39" BEL "uut2/x<2>_2_38" BEL "uut2/x<2>_2_37" BEL
+        "uut2/x<2>_2_36" BEL "uut2/x<2>_2_34" BEL "uut2/x<2>_2_33" BEL
+        "uut2/x<2>_2_32" BEL "uut2/x<2>_2_31" BEL "uut2/x<2>_2_30" BEL
+        "uut2/x<2>_2_29" BEL "uut2/x<2>_2_28" BEL "uut2/x<2>_2_27" BEL
+        "uut2/x<2>_2_25" BEL "uut2/x<2>_2_24" BEL "uut2/x<2>_2_23" BEL
+        "uut2/x<2>_2_22" BEL "uut2/x<2>_2_21" BEL "uut2/x<2>_2_20" BEL
+        "uut2/x<2>_2_19" BEL "uut2/x<2>_2_18" BEL "uut2/x<2>_2_16" BEL
+        "uut2/x<2>_2_15" BEL "uut2/x<2>_2_14" BEL "uut2/x<2>_2_13" BEL
+        "uut2/x<2>_2_12" BEL "uut2/x<2>_2_11" BEL "uut2/x<2>_2_10" BEL
+        "uut2/x<2>_2_9" BEL "uut2/x<2>_2_7" BEL "uut2/x<2>_2_6" BEL
+        "uut2/x<2>_2_5" BEL "uut2/x<2>_2_4" BEL "uut2/x<2>_2_3" BEL
+        "uut2/x<2>_2_2" BEL "uut2/x<2>_2_1" BEL "uut2/x<2>_2_0" BEL
+        "uut2/out_7" BEL "uut2/out_6" BEL "uut2/out_5" BEL "uut2/out_4" BEL
+        "uut2/out_3" BEL "uut2/out_2" BEL "uut2/out_1" BEL "uut2/out_0" BEL
+        "clk_BUFGP/BUFG" BEL "inst_LPM_FF_0" BEL "inst_LPM_FF_1" PIN
+        "uut3/Mram_mem32_pins<14>" PIN "uut3/Mram_mem31_pins<14>" PIN
+        "uut3/Mram_mem30_pins<14>" PIN "uut3/Mram_mem28_pins<14>" PIN
+        "uut3/Mram_mem27_pins<14>" PIN "uut3/Mram_mem29_pins<14>" PIN
+        "uut3/Mram_mem25_pins<14>" PIN "uut3/Mram_mem24_pins<14>" PIN
+        "uut3/Mram_mem26_pins<14>" PIN "uut3/Mram_mem22_pins<14>" PIN
+        "uut3/Mram_mem21_pins<14>" PIN "uut3/Mram_mem23_pins<14>" PIN
+        "uut3/Mram_mem20_pins<14>" PIN "uut3/Mram_mem19_pins<14>" PIN
+        "uut3/Mram_mem17_pins<14>" PIN "uut3/Mram_mem16_pins<14>" PIN
+        "uut3/Mram_mem18_pins<14>" PIN "uut3/Mram_mem15_pins<14>" PIN
+        "uut3/Mram_mem14_pins<14>" PIN "uut3/Mram_mem12_pins<14>" PIN
+        "uut3/Mram_mem11_pins<14>" PIN "uut3/Mram_mem13_pins<14>" PIN
+        "uut3/Mram_mem10_pins<14>" PIN "uut3/Mram_mem9_pins<14>" PIN
+        "uut3/Mram_mem7_pins<14>" PIN "uut3/Mram_mem6_pins<14>" PIN
+        "uut3/Mram_mem8_pins<14>" PIN "uut3/Mram_mem4_pins<14>" PIN
+        "uut3/Mram_mem3_pins<14>" PIN "uut3/Mram_mem5_pins<14>" PIN
+        "uut3/Mram_mem1_pins<14>" PIN "uut3/Mram_mem2_pins<14>";
+TS_clk = PERIOD TIMEGRP "clk" 40 ns HIGH 50%;
+SCHEMATIC END;
+

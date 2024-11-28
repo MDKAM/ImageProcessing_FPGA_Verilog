@@ -1,0 +1,4 @@
+verilog work "input_mem.v"
+verilog work "conv.v"
+verilog work "control.v"
+verilog work "main_module.v"

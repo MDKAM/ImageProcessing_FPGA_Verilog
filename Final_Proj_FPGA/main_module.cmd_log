@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "E:/sbu/7/FPGA/ISE codes/Final_Proj_FPGA/main_module.xst" -ofn "E:/sbu/7/FPGA/ISE codes/Final_Proj_FPGA/main_module.syr" 
+xst -intstyle ise -ifn "E:/sbu/7/FPGA/ISE codes/Final_Proj_FPGA/main_module.xst" -ofn "E:/sbu/7/FPGA/ISE codes/Final_Proj_FPGA/main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "main_module.ngc" main_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_module_map.ncd main_module.ngd main_module.pcf 
+par -w -intstyle ise -ol high -mt off main_module_map.ncd main_module.ncd main_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main_module.twx main_module.ncd -o main_module.twr main_module.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_module.ucf -p xc6slx16-csg324-3 "main_module.ngc" main_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_module_map.ncd main_module.ngd main_module.pcf 
+par -w -intstyle ise -ol high -mt off main_module_map.ncd main_module.ncd main_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main_module.twx main_module.ncd -o main_module.twr main_module.pcf -ucf main_module.ucf 
