@@ -20,11 +20,13 @@ The project is divided into three key phases:
 
 ## System Schematics
 Below are the schematics of the modules used in this project:
-![Matrix Convulotion Schematic](MatrixConvulotion.png)
+
+![Matrix Convulotion Schematic](MatrixConvolution.png)
 
 ![Controller Schematic](controllerModule.png)
 
 And here is the example input and output image:
+
 ![Test Image](test.png)
 
 ![Output Image](output_image.jpg)
